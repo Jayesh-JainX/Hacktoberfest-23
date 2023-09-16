@@ -3,7 +3,8 @@
 #### CELEBRATING 10TH YEAR OF OPEN SOURCE!
 # Contribute to open source and Earn Digital Rewards 🚀
 #### Star & fork this Repo first 
-![Hacktoberfest 2023](.\images\logo.png)
+![Hacktoberfest 2023](https://github.com/Jayesh-JainX/Hacktoberfest-23/assets/103871719/d4cd3c0d-3210-434c-b3cf-4dc45f04065c)
+
 
 Use this project to make your contributions to open source during HacktoberFest 2023. Practice making your pull requests to public repositories before doing the real thing! 
 This repository is open to all members of the GitHub community. Any member may contribute to this project without being a collaborator.
@@ -34,10 +35,11 @@ Hacktoberfest is an annual event that runs throughout October, sponsored by [Dig
 
 * Star this repository
 
-![Star Image](./images/star.png)
+![Star Image](https://github.com/Jayesh-JainX/Hacktoberfest-23/assets/103871719/42306c3d-0dba-4bf1-b378-2afb39989ee3)
+
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
 
-![Fork Image](./images/fork.png)
+![Fork Image](https://github.com/Jayesh-JainX/Hacktoberfest-23/assets/103871719/dcd3d8eb-7563-4ab6-8371-ee39bf551786)
 
 * Clone your fork down to your local machine
 ```
@@ -81,7 +83,8 @@ Add your name to the Profile.md file using the below convention:
 2. Adding Your Details to [ContriWebsite](https://jayesh-jainx.github.io/Hacktoberfest-23/) in index.html 
 3. Copy code as Selected in the Below image and paste it below again
 
-![Add_Profile](./images/add_pro.png)
+![Add_Profile](https://github.com/Jayesh-JainX/Hacktoberfest-23/assets/103871719/90b86170-d82d-4aa8-8d1c-e4abd8d51218)
+
 
 4. Edit Your Name, Github link, Linkedin Link.
 
@@ -93,7 +96,8 @@ Ex: <div class="card_img card3"> and save the file.
 8. Open style.css file
 9. Scroll Down as shown in image
 
-![Add_Style](./images/style.png)
+![Add_Style](https://github.com/Jayesh-JainX/Hacktoberfest-23/assets/103871719/f83b264e-097e-4a46-a1f8-23ab5e0e3452)
+
 
 10. Copy and paste the selected code as shown in above image and add your card with number, also add the copied url
 
