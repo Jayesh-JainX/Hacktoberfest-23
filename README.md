@@ -2,7 +2,7 @@
 #### CELEBRATING 10TH YEAR OF OPEN SOURCE!
 # Contribute to open source and Earn Digital Rewards 🚀
 #### Star & fork this Repo first 
-![Hacktoberfest 2023](\images\logo.jpg)
+![Hacktoberfest 2023](./images/logo.png)
 
 Use this project to make your contributions to open source during HacktoberFest 2023. Practice making your pull requests to public repositories before doing the real thing! 
 This repository is open to all members of the GitHub community. Any member may contribute to this project without being a collaborator.
