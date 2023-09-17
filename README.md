@@ -19,12 +19,11 @@ Hacktoberfest is an annual event that runs throughout October, sponsored by [Dig
 # How to contribute to this project
 ### Video tutorials:
 - [Hacktoberfest Official Website](https://hacktoberfest.com/)
-
 - [How to Do Your First Pull Request](https://hacktoberfest.com/participation/#beginner-resources)
-- [Video Tutorial](https://www.youtube.com/)
+- [Video Tutorial](https://youtu.be/xweXYoeNkoA?feature=shared)
 
 ### For Beginners
-1) Visit & Learn   [Tutorial Github](https://www.youtube.com/watch?v=RGOj5yH7evk)
+1) Visit & Learn   [Tutorial Github](https://youtu.be/xweXYoeNkoA?feature=shared)
 2) Clone this repo
 3) Make a pull request
 4) Wait until your pull request is merged/given accepted tag
