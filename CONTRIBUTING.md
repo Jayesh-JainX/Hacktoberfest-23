@@ -32,7 +32,7 @@ This Code of Conduct applies both within the project spaces and in public spaces
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [INSERT YOUR CONTACT EMAIL]. All complaints will be reviewed and investigated, and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality regarding the reporter of an incident.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team. All complaints will be reviewed and investigated, and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality regarding the reporter of an incident.
 
 Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
