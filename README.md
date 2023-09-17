@@ -80,7 +80,7 @@ Add your name to the Profile.md file using the below convention:
 | :--------------- | :------------------------------------------------: | ------------------: | ------------------------: |
 |Jayesh Jain|[Jayesh Jain](https://github.com/jayesh-JainX/) | Coding, Sports | Be Happy |
 
-2. Adding Your Details to [ContriWebsite](https://jayesh-jainx.github.io/Hacktoberfest-23/) in index.html 
+2. Adding Your Details to [Contributor's Website](https://jayesh-jainx.github.io/Hacktoberfest-23/) in index.html 
 3. Copy code as Selected in the Below image and paste it below again
 
 ![Add_Profile](https://github.com/Jayesh-JainX/Hacktoberfest-23/assets/103871719/90b86170-d82d-4aa8-8d1c-e4abd8d51218)
