@@ -6,6 +6,7 @@ Welcome to the "Quote Of The Day" web app! This simple web app displays a random
 
 **[Live Demo](https://hacktoberfest2023-quote-of-the-day.netlify.app/)**
 
+![Alt text](image.png)
 ## Technologies Used
 
 - HTML🩻
@@ -17,4 +18,4 @@ Enjoy your daily dose of inspiration with the "Quote Of The Day" web app!
 
 ---
 
-*This web app is a sample project and does not have a live URL. You can host it on your own web server or platform.*
+
