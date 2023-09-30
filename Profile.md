@@ -4,3 +4,4 @@
 |Sai Sunitha|[baekusboo](https://github.com/baekusboo) | Coding, Drawing | Leaning... |
 |User|[User](https://github.com/abc00xyz) | Coding | Cool |
 |Neel Mishra|[Neel Mishra](https://github.com/Neel-07) | Coding, footbal | Confident.. |
+|Bhumika Bachchan|[insane-22](https://github.com/insane-22) | Coding, Book reading | Grateful |
