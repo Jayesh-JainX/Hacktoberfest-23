@@ -1,0 +1,104 @@
+/* Reset some default styles to ensure consistency */
+
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and center content */
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #DAD299;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B0DAB9, #DAD299);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* Style the container for the quote */
+#quote-container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    /* Adjust the maximum width as needed */
+    width: 90%;
+    /* Ensure responsiveness by setting a relative width */
+}
+
+/* Style the heading */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'EB Garamond', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+
+/* Style the quote text */
+#quote-text {
+    font-size: 24px;
+    font-weight: italic;
+    margin-bottom: 20px;
+}
+
+/* Style the author text */
+#quote-author {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Style a button to fetch a new quote */
+.fetch-button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fetch-button:hover {
+    background-color: #0056b3;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+
+    /* Adjust styles for smaller screens */
+    #quote-container {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #quote-text {
+        font-size: 20px;
+    }
+
+    #quote-author {
+        font-size: 18px;
+    }
+
+    .fetch-button {
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+}
