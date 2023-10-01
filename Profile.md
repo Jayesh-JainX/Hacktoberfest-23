@@ -10,3 +10,4 @@
 | Deepesh Kumar    |     [akadeepesh](https://github.com/akadeepesh)     |                  Coding, web-dev |   DeCoder.. |
 |Rishabh Rathore|[Rishabh Rathore](https://github.com/rishabhrathore055) | Python, Data Science, Open Source| Focused |
 |Krishay Nair|[krishaynair](https://github.com/KrishayNair) | Coding, Drawing | Leaning... |
+|Sameer Soni       |[Sameer Soni](https://github.com/sameer-soni)        |       Programming, Gaming, Movies|      Huehue |
