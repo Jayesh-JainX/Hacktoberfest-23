@@ -1,0 +1,71 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.App-main {
+  padding: 20px;
+}
+
+.shorten-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.url-input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.shorten-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shorten-button:hover {
+  background-color: #0056b3;
+}
+
+.loading {
+  color: #007bff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.error {
+  color: #ff0000;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.result-container {
+  margin-top: 20px;
+}
+
+.short-url {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.short-url-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.short-url-link:hover {
+  text-decoration: underline;
+}
