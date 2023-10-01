@@ -247,11 +247,10 @@ h1 {
   background-image: url(https://avatars.githubusercontent.com/u/96646046?v=4);
 }
 
-.card8{
+.card8 {
   background-image: url(https://avatars.githubusercontent.com/u/100466756?s=80&u=a996c979f143b0b4248bd92919d22d5e75720522&v=4);
-
 }
-.card9{
+.card9 {
   background-image: url(https://avatars.githubusercontent.com/u/77366500?v=4);
 }
 
@@ -259,27 +258,36 @@ h1 {
   background-image: url(https://avatars.githubusercontent.com/u/98453988?s=400&u=330b0e0fff331ed4fca44621e42c66bb4ef81663&v=4);
 }
 
-.card11{
+.card11 {
   background-image: url(https://avatars.githubusercontent.com/u/101285245?v=4);
 }
 
-.card12{
+.card12 {
   background-image: url(https://avatars.githubusercontent.com/u/134498717?v=4);
 }
 
-.card13{
+.card13 {
   background-image: url(https://avatars.githubusercontent.com/u/93820575?s=400&v=4);
 }
 
-.card14{
+.card14 {
   background-image: url(https://avatars.githubusercontent.com/u/114168134?v=4);
 }
-.card15{
+.card15 {
   background-image: url(https://avatars.githubusercontent.com/u/114892666?v=4);
 }
 .card16{
   background-image: url(https://avatars.githubusercontent.com/u/114591777?v=4);
 }
+
+.card16 {
+  background-image: url(https://avatars.githubusercontent.com/u/79664299?v=4);
+}
+
+.card17{
+  background-image: url(https://avatars.githubusercontent.com/u/96019291?s=400&u=9cdfa66352a6820656faafdef9e4c5deb639f11a&v=4);
+}
+
 
 .line {
   height: 2px;
