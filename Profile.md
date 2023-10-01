@@ -1,4 +1,3 @@
-
 | Name             |                   Github Profile                    |                         Interest |         Bio |
 | :--------------- | :-------------------------------------------------: | -------------------------------: | ----------: |
 | Jayesh Jain      |   [Jayesh Jain](https://github.com/jayesh-JainX/)   |                   Coding, Sports |    Be Happy |
@@ -14,4 +13,6 @@
 |Parmesh Bhatt|[Parmesh Bhatt](https://github.com/Parmesh119)            | Coding, open-sourcec, Cricket    | Learner |
 |Sameer Soni       |[Sameer Soni](https://github.com/sameer-soni)        |       Programming, Gaming, Movies|      Huehue |
 |Aash|[Aash](https://github.com/Snowfall22) | Coding | Learning |
+|Sahil Bhise|[sahilbhise09](https://github.com/sahilbhise09) | Coding, Development | Leaning... |
+|Raj Sharma        |[Raj Sharma](https://github.com/Raj-sharma01)        | Coding                          | Learner |
 | Ankit      |   [kibergard](https://github.com/kibergrad)   |                   Coding, Sports, Robotics |    :) |
