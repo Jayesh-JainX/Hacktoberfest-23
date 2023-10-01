@@ -1,0 +1,313 @@
+/* Common styles for all screens */
+* {
+  font-family: "Gill Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #e99dd3;
+  background: -webkit-linear-gradient(to right, #d4b1dc, #DAD299);
+  background: linear-gradient(to right, #d4b1dc, #DAD299);
+}
+
+.left {
+  flex: 1;
+  color: rgb(15, 7, 7);
+  font-weight: 600;
+  padding: 1.6rem 2.4rem;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.left::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.left {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.container {
+  flex: 1;
+  max-width: 44rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  font-size: 1.6rem;
+}
+
+.searchBar {
+  flex: 1;
+  background: #cb77b3;
+  background: -webkit-linear-gradient(to right, #d77fea, #fdf6c0);
+  background: linear-gradient(to right, #d77fea, #fdf6c0);
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  margin-left: 4.6rem;
+}
+
+.searchInput {
+  background: none;
+  outline: none;
+  border: none;
+  flex: 1;
+  margin-left: 0.6rem;
+}
+
+.searchButton {
+  border: none;
+  background-color: #d329c2b3;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  margin: -0.4rem 0;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #0891b2;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 3rem;
+  margin-bottom: 1.6rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.overviewProp {
+  height: 6rem;
+  min-width: 16rem;
+  width: 100%;
+  margin: 0.4rem 1.4rem;
+  color: rgb(15, 7, 7);
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.propIconContainer {
+  padding-right: 1rem;
+}
+
+.propIcon {
+  color: #ffffff;
+}
+
+.propValueContainer {
+  width: 100%;
+}
+
+.propTitle {
+  color: rgb(15, 7, 7);
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.propMain {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.primaryData {
+  flex: 3;
+}
+
+.propValue {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.secondaryData {
+  flex: 1;
+  font-weight: 400;
+  color: rgb(15, 7, 7);
+}
+
+.chart {
+  color: #4ade80;
+  border-color: #34d399;
+}
+
+.chart_card {
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.right {
+  background: #cb77b3;
+  background: -webkit-linear-gradient(to right, #d77fea, #fdf6c0);
+  background: linear-gradient(to right, #d77fea, #fdf6c0);
+  width: 28rem;
+  background-color: #4ade80;
+  background-size: 200% 400%;
+  color: #fafcfe;
+}
+
+.rightContainer {
+  padding: 1.6rem 1.4rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.time {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.currentWeather {
+  display: flex;
+  align-items: center;
+  margin-top: 2.6rem;
+}
+
+.weatherIconContainer {
+  height: 5.4rem;
+  width: 5.4rem;
+  margin-right: 1rem;
+}
+
+.weatherIconContainer > img {
+  height: 100%;
+  width: 100%;
+}
+
+.currentTemperatureValueContainer {
+  flex: 1;
+}
+
+.currentTemperature {
+  margin: 0.4rem 1.2rem;
+}
+
+.currentTemperature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currentTemperatureValue {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.currentTemperatureMetric {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.temperatureDescription {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.horizontalLine {
+  width: 100%;
+  height: 1px;
+  background-color: #f87171;
+  margin: 1.6rem 0;
+}
+
+.sunStageContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 1.6rem;
+  background-color: #294269;
+  padding: 1rem 1.2rem;
+  border-radius: 0.6rem;
+  border: 1px #6180b9 solid;
+}
+
+.sunIcon {
+  margin-right: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.col {
+  flex: 1;
+}
+
+.sunStageTitle {
+  color: #f87171;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.sunTime {
+  font-weight: 500;
+}
+
+.sunTimeRelative {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+/* Responsive styles for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .wrapper {
+      flex-direction: column;
+  }
+
+  .left {
+      width: 100%;
+      padding: 1rem;
+      /* overflow-y: auto; */
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .right {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .searchBar {
+      margin-left: 0;
+      margin-top: 1rem;
+  }
+
+  .container {
+      max-width: 100%;
+  }
+}

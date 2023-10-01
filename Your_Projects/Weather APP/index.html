@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/00a7ab4cb7.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather App</title>
+    <link rel="icon" href="cloudy.ico" type="icon" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@4.0.2/dist/timeago.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left">
+        <div class="container">
+          <div class="header">
+            <div class="date" id="date"></div>
+            <div class="searchBar">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input class="searchInput" id="searchInput" type="text" onchange="getWeatherData()"/>
+              <button class="searchButton" onclick="getWeatherData()">
+                Search
+              </button>
+            </div>
+          </div>
+          <div class="todayOverview">
+            <div class="sectionTitle"><b><u>Today Overview</u></b></div>
+            <div class="row">
+              <div class="overviewProp">
+                <div class="propIconContainer">
+                  <i class="propIcon fa-solid fa-wind"></i>
+                </div>
+                <div class="propValueContainer">
+                  <div class="propTitle">Wind</div>
+                  <div class="propMain">
+                    <span class="primaryData">
+                      <span class="propValue" id="wind"></span>
+                      <span class="propMetric">Kmph</span>
+                    </span>
+                    <span class="secondaryData" id="windDir"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="overviewProp">
+                <div class="propIconContainer">
+                  <i class="propIcon fa-solid fa-temperature-half"></i>
+                </div>
+                <div class="propValueContainer">
+                  <div class="propTitle">Lowest / Highest</div>
+                  <div class="propMain">
+                    <span class="primaryData">
+                      <span class="propValue" id="lowestToday"></span>
+                      <span class="propMetric">˚C</span>
+                      <span> / </span>
+                      <span class="propValue" id="highestToday"></span>
+                      <span class="propMetric">˚C</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="overviewProp">
+                <div class="propIconContainer">
+                  <i class="propIcon fa-solid fa-water"></i>
+                </div>
+                <div class="propValueContainer">
+                  <div class="propTitle">Pressure</div>
+                  <div class="propMain">
+                    <span class="primaryData">
+                      <span class="propValue" id="pressure"></span>
+                      <span class="propMetric">pa</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="overviewProp">
+                <div class="propIconContainer">
+                  <i class="propIcon fa-solid fa-droplet"></i>
+                </div>
+                <div class="propValueContainer">
+                  <div class="propTitle">Humidity</div>
+                  <div class="propMain">
+                    <span class="primaryData">
+                      <span class="propValue" id="humidity"></span>
+                      <span class="propMetric">%</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tempForecast">
+            <div class="sectionTitle"><b><u>Temperature Forecast in ˚F</u></b></div>
+            <div class="chart_card">
+                <div id="chart" style="width: 100%; height: 400px;color: #ffffff;"></div>
+            </div>          
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="rightContainer">
+          <div class="top">
+            <div class="location" id="location"></div>
+            <div class="time" id="time"></div>
+          </div>
+          <div class="currentWeather">
+            <div class="weatherIconContainer">
+              <img src="" alt="weather icon" id="weatherIcon" />
+            </div>
+            <div class="currentTemperatureValueContainer">
+              <span class="currentTemperatureValue" id="currentTemp"></span>
+              <span class="currentTemperatureMetric">˚C</span>
+            </div>
+            <div class="temperatureDescription" id="weatherDescription"></div>
+          </div>
+          <div class="sectionTitle">Sunrise & Sunset</div>
+          <div class="sunStageContainer">
+            <div class="sunIcon"><i class="fa-solid fa-sun"></i></div>
+            <div class="col">
+              <div class="sunStageTitle">Sunrise</div>
+              <div class="sunTime" id="sunrise"></div>
+            </div>
+            <div class="sunTimeRelative" id="sunriseRelative"></div>
+          </div>
+          <div class="sunStageContainer">
+            <div class="sunIcon"><i class="fa-solid fa-moon"></i></div>
+            <div class="col">
+              <div class="sunStageTitle">Sunset</div>
+              <div class="sunTime" id="sunset"></div>
+            </div>
+            <div class="sunTimeRelative" id="sunsetRelative"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
