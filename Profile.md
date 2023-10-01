@@ -21,3 +21,4 @@
 |Dishant Zaveri      |[dishantzaveri](https://github.com/dishantzaveri)        | Coding                   | Developer,Hackathon Winner |
 |Trishan Wagle       |[Trishan Wagle](https://github.com/trishan9)        | Coding, AI, Data Science                        | Hustler |
 |Mihir Panchal      |[Mihir Panchal](https://github.com/MihirRajeshPanchal)        | Coding                   | Developer |
+|Javeria Asif |[Javeria Asif](https://github.com/Javeria-Asif)| Coding, Cyber Security| Developer |
