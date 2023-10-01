@@ -1,0 +1,39 @@
+@import 'src/styles/variables.scss';
+
+.Board {
+  margin: 0;
+  border: 2px solid $colorSecondaryDark;
+  background: $colorPrimary;
+  position: relative;
+  padding: 18px;
+}
+
+.Board__Inner {
+  border: 2px solid $colorSecondaryDark;
+  position: relative;
+}
+
+.Board__Columns {
+  flex: 1;
+  display: flex;
+}
+
+.Board__Column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.Board--Reversed {
+  .Board__Columns {
+    flex-direction: row-reverse;
+  }
+
+  .Board__Column {
+    flex-direction: column-reverse;
+  }
+}
+
+.Board__Piece {
+  padding: 3px;
+}

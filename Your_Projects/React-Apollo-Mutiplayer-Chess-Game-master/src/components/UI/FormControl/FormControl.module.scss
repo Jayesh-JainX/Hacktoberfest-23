@@ -1,0 +1,81 @@
+@import 'src/styles/variables.scss';
+
+.FormControl {
+  input,
+  textarea,
+  select {
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    padding: 12px 10px;
+    border: 1px solid #ddd;
+    transition: border 0.2s, box-shadow 0.2s;
+
+    &:focus {
+      outline: none;
+      border-color: $colorSecondary;
+      box-shadow: 0 2px 8px transparentize($colorSecondary, 0.5);
+    }
+  }
+
+  &.checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    cursor: pointer;
+
+    .Label {
+      padding-top: 2px;
+    }
+
+    input {
+      margin-right: 10px;
+    }
+  }
+
+  &.FormControl--Invalid {
+    input,
+    textarea,
+    select {
+      border-color: red !important;
+
+      &:focus {
+        box-shadow: 0 2px 8px transparentize(red, 0.5);
+      }
+    }
+  }
+}
+
+.Input {
+  margin-bottom: 15px;
+}
+
+.Input--Checkbox {
+  position: relative;
+  z-index: 1;
+
+  input[type='checkbox'] {
+    visibility: hidden;
+    position: absolute;
+    z-index: -99;
+  }
+
+  .Input__Icon {
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 24px;
+  }
+
+  input:checked ~ .Input__Icon {
+    background: $colorSecondary;
+    color: #fff;
+
+    &::before {
+      content: '\2713 ';
+    }
+  }
+}

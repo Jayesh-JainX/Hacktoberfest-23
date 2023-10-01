@@ -1,0 +1,10 @@
+@import 'src/styles/variables.scss';
+
+.SignupForm {
+  max-width: 450px;
+  margin: 20px auto;
+
+  button[type='submit'] {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,45 @@
+@import 'src/styles/variables.scss';
+
+.Nav {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    li {
+      margin: 5px 12px;
+    }
+
+    a {
+      display: block;
+      padding-bottom: 5px;
+      position: relative;
+      text-decoration: none !important;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: $colorWhite;
+        transform: scaleX(0);
+        transition: transform 0.3s;
+      }
+
+      &:hover {
+        color: transparentize($colorWhite, 0.25);
+      }
+
+      &.Menu__Item--Active {
+        color: $colorWhite;
+
+        &::after {
+          transform: scaleX(1);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "src/styles/variables.scss";
+
+.Chess__Piece {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  cursor: pointer;
+  position: absolute;
+  width: 12.5%;
+  height: 12.5%;
+  z-index: 99;
+  top: 0;
+  left: 0;
+
+  svg {
+    width: 100%;
+  }
+}
+
+.Chess__Piece--Selected {
+  z-index: 100;
+}

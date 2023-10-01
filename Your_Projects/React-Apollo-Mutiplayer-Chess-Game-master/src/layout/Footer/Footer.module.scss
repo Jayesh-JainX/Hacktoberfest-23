@@ -1,0 +1,16 @@
+@import "src/styles/variables.scss";
+
+.Footer {
+  padding: 15px 0;
+  background: $colorPrimaryLight;
+}
+
+.IconLink {
+  display: flex;
+  align-items: center;
+
+  svg {
+    width: 24px;
+    margin: 0 8px 0 0;
+  }
+}

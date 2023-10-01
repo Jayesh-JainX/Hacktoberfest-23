@@ -1,0 +1,46 @@
+@import 'src/styles/variables.scss';
+
+.GamesList {
+  width: 100%;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  a {
+    margin: 0;
+  }
+}
+
+.Player {
+  display: block;
+  padding: 2px 8px;
+  background: $colorPrimary;
+  border-radius: 3px;
+  font-size: 0.8rem;
+
+  &.Player--Pending {
+    background: none;
+  }
+}
+
+.Players {
+  flex: 1;
+  display: flex;
+  margin: 0 7px;
+
+  span {
+    margin: 0 3px;
+  }
+}
+
+.Actions {
+  display: flex;
+}

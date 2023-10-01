@@ -1,0 +1,94 @@
+/**
+ *  Buttons
+ */
+
+.btn {
+  font-size: 1rem;
+  display: inline-block;
+  padding: 8px 16px;
+  background: $colorPrimaryDark;
+  border: none;
+  color: $colorWhite;
+  text-decoration: none !important;
+  margin: 5px 0;
+  border-radius: 3px;
+  min-width: 100px;
+  text-align: center;
+  transition: background 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background: darken($colorPrimaryDark, 8%);
+  }
+
+  & + .btn {
+    margin-left: 15px;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+    opacity: 0.6;
+
+    &:hover {
+      background: $colorPrimaryDark;
+    }
+  }
+}
+
+.btn--secondary {
+  background: $colorSecondary;
+
+  &:hover {
+    background: lighten($colorSecondary, 10%);
+  }
+
+  &:disabled {
+    &:hover {
+      background: $colorSecondary;
+    }
+  }
+}
+
+.btn--white {
+  background: $colorWhite;
+  color: $colorSecondary !important;
+
+  &:hover {
+    background: $colorPrimaryLight;
+  }
+
+  &:disabled {
+    &:hover {
+      background: $colorWhite;
+    }
+  }
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.btn--sm {
+  font-size: 0.875rem;
+  min-width: 80px;
+  padding: 6px 12px;
+}
+
+.btn--xl {
+  font-size: 1.2rem;
+  min-width: 140px;
+  padding: 10px 25px;
+}
+
+.message--error {
+  font-size: 0.875rem;
+  margin: 15px 0;
+  color: red;
+}
+
+label .message--error {
+  margin-top: -10px;
+}

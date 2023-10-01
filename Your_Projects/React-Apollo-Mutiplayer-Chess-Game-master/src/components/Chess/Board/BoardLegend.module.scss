@@ -1,0 +1,71 @@
+@import 'src/styles/variables.scss';
+
+.Legend__Item {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.15s;
+
+  &.Legend__Item--Active {
+    background: $colorPrimaryDark;
+  }
+}
+
+.Legend--Horizontal {
+  display: flex;
+  padding: 0 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  &.Legend--Bottom {
+    top: auto;
+    bottom: 0;
+  }
+
+  .Legend__Item {
+    flex: 1;
+    text-align: center;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.Legend--Vertical {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 18px 0;
+
+  &.Legend--Right {
+    left: auto;
+    right: 0;
+  }
+
+  .Legend__Item {
+    flex: 1;
+    text-align: center;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.Legend--Reversed {
+  .Legend--Horizontal {
+    flex-direction: row-reverse;
+  }
+
+  .Legend--Vertical {
+    flex-direction: column-reverse;
+  }
+}

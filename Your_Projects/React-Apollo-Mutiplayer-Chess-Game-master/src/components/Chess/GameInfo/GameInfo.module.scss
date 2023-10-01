@@ -1,0 +1,32 @@
+.GameInfo__Item {
+  & + .GameInfo__Item {
+    margin-top: 30px;
+  }
+}
+
+.Turn {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #000;
+  transition: background 0.2s;
+
+  &.Turn--White {
+    background: #fff;
+  }
+
+  &.Turn--Black {
+    background: #000;
+  }
+}
+
+.Chess__Icons {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .Chess__Icon {
+    width: 40px;
+  }
+}

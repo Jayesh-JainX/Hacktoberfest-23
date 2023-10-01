@@ -1,0 +1,14 @@
+@import "src/styles/variables.scss";
+
+.Layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Main {
+  position: relative;
+  flex: 1;
+  min-height: 350px;
+  padding: 20px 0;
+}

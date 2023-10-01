@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/**
+ *  Typography
+ */
+
+body {
+  color: $colorText;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $colorHeading;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin: 0 0 0.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  margin: 0 0 0.8rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+  margin: 0 0 0.6rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem;
+}
+
+/**
+ *  Helpers
+ */
+
+.align--center { text-align: center; }
+.align--left { text-align: left; }
+.align--right { text-align: right; }
+
+/**
+ *  Color classes
+ */
+
+.bg--primary { background: $colorPrimary; }
+.bg--primary-dark { background: $colorPrimaryDark; }
+.bg--primary-light { background: $colorPrimaryLight; }
+.bg--secondary { background: $colorSecondary; }
+.bg--secondary-dark { background: $colorSecondaryDark; }
+.bg--secondary-light { background: $colorSecondaryLight; }
+.bg--white { background: $colorWhite; }
+
+.c--primary { color: $colorPrimary; }
+.c--primary-dark { color: $colorPrimaryDark; }
+.c--primary-light { color: $colorPrimaryLight; }
+.c--secondary { color: $colorSecondary; }
+.c--secondary-dark { color: $colorSecondaryDark; }
+.c--secondary-light { color: $colorSecondaryLight; }
+.c--white { color: $colorWhite; }
+
+/**
+ *  Links
+ */
+
+a {
+  color: $colorSecondary;
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
