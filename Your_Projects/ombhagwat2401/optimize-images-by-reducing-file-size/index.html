@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Image Optimizer</title>
+  </head>
+  <body>
+
+<div class="container text-center" style="padding: 20px">
+  <h2 class="text-center">Free Image Optimizer 🔥🚀</h2>
+  <p>Optimize your images by reducing file size while maintaining quality</p>
+</div>
+    <div class="container">
+       
+        <div class="card p-3 mb-2 bg-primary text-white" style="width: 45rem; margin: auto;">
+    
+          <div class="card-body text-center">
+            <div class="input-group mb-3">
+              <input type="file" id="imageInput" accept="image/*" class="form-control">
+           </div>
+           <button class="btn btn-light" onclick="optimizeImage()">Optimize Image</button>
+          </div>
+       </div>
+    </div>
+    <br>
+    <div class="container" id="outputContainer" style="display: none">
+      <div class="card" style="padding: 20px;">
+        <div style="display: flex; justify-content: space-around;">
+          <div style="width: 44%;">
+            <p>Original</p>
+            <img id="originalImage" style="width: 100%;">
+            <p id="originalSize"></p>
+          </div>
+          <div style="width: 44%;">
+              <p>Optimized</p>
+             <img id="optimizedImage" style="width: 100%;">
+             <p id="optimizedSize"></p>
+          </div>
+        </div>
+        <div class="text-center">
+           <a id="downloadButton" download="optimized_image.jpg"><button class="btn btn-lg btn-success">Download Optimized Image</button>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center" style="padding-top: 100px;">
+      <div class="spinner-border text-primary" role="status" id="loader" style="display: none;">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <br>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
