@@ -20,3 +20,4 @@
 |chintu kumar       |[chintu kumar](https://github.com/chiku011)        | Coding                          | Learner |
 |Dishant Zaveri      |[dishantzaveri](https://github.com/dishantzaveri)        | Coding                   | Developer,Hackathon Winner |
 |Trishan Wagle       |[Trishan Wagle](https://github.com/trishan9)        | Coding, AI, Data Science                        | Hustler |
+|Mihir Panchal      |[Mihir Panchal](https://github.com/MihirRajeshPanchal)        | Coding                   | Developer |
