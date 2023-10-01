@@ -20,7 +20,7 @@ Hacktoberfest is an annual event that runs throughout October, sponsored by [Dig
 - [Hacktoberfest Official Website](https://hacktoberfest.com/)
 
 - [How to Do Your First Pull Request](https://hacktoberfest.com/participation/#beginner-resources)
-- [Video Tutorial](https://www.youtube.com/)
+- [Video Tutorial](https://www.youtube.com/watch?v=xweXYoeNkoA)
 
 ### For Beginners
 1) Visit & Learn   [Tutorial Github](https://www.youtube.com/watch?v=RGOj5yH7evk)
