@@ -18,3 +18,5 @@
 |Raj Sharma        |[Raj Sharma](https://github.com/Raj-sharma01)        | Coding                          | Learner |
 |Trishan Wagle       |[Trishan Wagle](https://github.com/trishan9)        | Coding, AI, Data Science                        | Hustler |
 |Aryan Gupta       |[Aryan Gupta](https://github.com/aryan-codes1)       |Coding, Sports                   | Be Positive  |
+|chintu kumar       |[chintu kumar](https://github.com/chiku011)        | Coding                          | Learner |
+|Dishant Zaveri      |[dishantzaveri](https://github.com/dishantzaveri)        | Coding                   | Developer,Hackathon Winner |
