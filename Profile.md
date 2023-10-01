@@ -15,4 +15,5 @@
 |Sameer Soni       |[Sameer Soni](https://github.com/sameer-soni)        |       Programming, Gaming, Movies|      Huehue |
 |Aash|[Aash](https://github.com/Snowfall22) | Coding | Learning |
 |Sahil Bhise|[sahilbhise09](https://github.com/sahilbhise09) | Coding, Development | Leaning... |
-|Raj Sharma        |[Raj Sharma](https://github.com/Raj-sharma01)        | Coding                          | Learner |
+|Raj Sharma        |[Raj Sharma](https://github.com/Raj-sharma01)        | Coding                          | Learner | 
+|Rohit Sharma|[Rohit-sharma04](https://github.com/Rohit-sharma04) | Coding, Development | peace |

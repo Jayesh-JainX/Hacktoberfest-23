@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://media1.giphy.com/media/FlodpfQUBSp20/200.webp?cid=ecf05e475pyfwz83wrqxmgyumm8q82g6j37nq760pfb4azuj&ep=v1_gifs_search&rid=200.webp&ct=g);
+
+}
+
+
+.container {
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px; 
+    margin: 50px auto;
+    background-color: black;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.password-input {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+  border: 0;
+
+  margin: 10px;
+  
+}
+
+#password {
+    flex-grow: 1;
+    padding: 10px;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: hidden;
+    background-color: #121726;
+
+}
+
+#toggle-password {
+    padding: 12px;
+    cursor: pointer;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: auto;
+}
+
+.password-strength {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+.password-strength {
+    font-size: 20px;
+    text-align: center;
+    transition: text-shadow 0.3s ease-in-out; 
+}
+.common{
+     color:#ff0000; /* Red */
+}
+.weak {
+    color: #ff4da6; /* Pink */
+}
+
+.moderate {
+    color: #f0a500; /* Orange */
+}
+
+.good {
+    color: #ffff00; /* Yellow */
+}
+
+.strong {
+    color: #4caf50; /* Green */
+}
+
+.very-strong {
+    color: #007BFF; /* Blue */
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+
+    #password {
+        padding: 8px;
+        margin-top: 8px;
+    }
+
+    #toggle-password {
+        padding: 10px;
+    }
+
+    .password-strength {
+        font-size: 16px;
+    }
+
+    .glow {
+        font-size: 60px;
+    }
+    
+}

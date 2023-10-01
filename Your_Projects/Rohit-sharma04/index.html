@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="password.js"></script>
+    <script src="app.js"></script>
+    <title>Password Strength Meter</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Password Strength Meter</h1>
+        <label for="password">Enter your password:</label>
+        <div class="password-input">
+            <input type="password" id="password" onkeyup="checkPasswordStrength(this.value)">
+            <button id="toggle-password" onclick="togglePasswordVisibility()">Show</button>
+        </div>
+        <div id="password-strength" class="password-strength glow"></div>
+    </div>
+</body>
+</html>
