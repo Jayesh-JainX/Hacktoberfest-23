@@ -12,3 +12,4 @@
 |Krishay Nair|[krishaynair](https://github.com/KrishayNair) | Coding, Drawing | Leaning... |
 | Kalki V          |      [Kalki2706](https://github.com/Kalki2706)      |                Coding, Designing |  Consistent |
 |Parmesh Bhatt|[Parmesh Bhatt](https://github.com/Parmesh119)            | Coding, open-sourcec, Cricket    | Learner |
+|Sameer Soni       |[Sameer Soni](https://github.com/sameer-soni)        |       Programming, Gaming, Movies|      Huehue |
