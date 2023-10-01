@@ -1,0 +1,138 @@
+#include <SDL.h>
+#include <iostream>
+
+// Screen dimensions
+const int SCREEN_WIDTH = 640;
+const int SCREEN_HEIGHT = 480;
+
+// Paddle dimensions
+const int PADDLE_WIDTH = 10;
+const int PADDLE_HEIGHT = 100;
+
+// Ball dimensions
+const int BALL_WIDTH = 10;
+const int BALL_HEIGHT = 10;
+
+// Paddle and ball initial positions
+int paddleY = (SCREEN_HEIGHT - PADDLE_HEIGHT) / 2;
+int ballX = (SCREEN_WIDTH - BALL_WIDTH) / 2;
+int ballY = (SCREEN_HEIGHT - BALL_HEIGHT) / 2;
+
+// Ball speed
+int ballVelocityX = 5;
+int ballVelocityY = 5;
+
+// SDL objects
+SDL_Window* window = nullptr;
+SDL_Renderer* renderer = nullptr;
+
+bool running = true;
+
+void Initialize() {
+    if (SDL_Init(SDL_INIT_VIDEO) != 0) {
+        std::cerr << "SDL_Init failed: " << SDL_GetError() << std::endl;
+        running = false;
+        return;
+    }
+
+    window = SDL_CreateWindow("Pong Game", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+
+    if (!window) {
+        std::cerr << "SDL_CreateWindow failed: " << SDL_GetError() << std::endl;
+        running = false;
+        return;
+    }
+
+    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+
+    if (!renderer) {
+        std::cerr << "SDL_CreateRenderer failed: " << SDL_GetError() << std::endl;
+        running = false;
+        return;
+    }
+}
+
+void HandleEvents() {
+    SDL_Event event;
+
+    while (SDL_PollEvent(&event)) {
+        if (event.type == SDL_QUIT) {
+            running = false;
+        }
+    }
+
+    const Uint8* keyboardState = SDL_GetKeyboardState(NULL);
+
+    if (keyboardState[SDL_SCANCODE_UP] && paddleY > 0) {
+        paddleY -= 5;
+    }
+
+    if (keyboardState[SDL_SCANCODE_DOWN] && paddleY < SCREEN_HEIGHT - PADDLE_HEIGHT) {
+        paddleY += 5;
+    }
+}
+
+void Update() {
+    ballX += ballVelocityX;
+    ballY += ballVelocityY;
+
+    // Ball collision with top and bottom walls
+    if (ballY < 0 || ballY > SCREEN_HEIGHT - BALL_HEIGHT) {
+        ballVelocityY = -ballVelocityY;
+    }
+
+    // Ball collision with paddles
+    if (ballX < PADDLE_WIDTH && ballY > paddleY && ballY < paddleY + PADDLE_HEIGHT) {
+        ballVelocityX = -ballVelocityX;
+    }
+
+    // Ball out of bounds (scored)
+    if (ballX < 0 || ballX > SCREEN_WIDTH) {
+        ballX = (SCREEN_WIDTH - BALL_WIDTH) / 2;
+        ballY = (SCREEN_HEIGHT - BALL_HEIGHT) / 2;
+        ballVelocityX = -ballVelocityX;
+    }
+}
+
+void Render() {
+    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+    SDL_RenderClear(renderer);
+
+    // Draw paddles
+    SDL_Rect leftPaddle = {0, paddleY, PADDLE_WIDTH, PADDLE_HEIGHT};
+    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+    SDL_RenderFillRect(renderer, &leftPaddle);
+
+    // Draw ball
+    SDL_Rect ball = {ballX, ballY, BALL_WIDTH, BALL_HEIGHT};
+    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+    SDL_RenderFillRect(renderer, &ball);
+
+    SDL_RenderPresent(renderer);
+}
+
+void Cleanup() {
+    if (renderer) {
+        SDL_DestroyRenderer(renderer);
+    }
+
+    if (window) {
+        SDL_DestroyWindow(window);
+    }
+
+    SDL_Quit();
+}
+
+int main(int argc, char** argv) {
+    Initialize();
+
+    while (running) {
+        HandleEvents();
+        Update();
+        Render();
+    }
+
+    Cleanup();
+
+    return 0;
+}
