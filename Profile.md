@@ -16,3 +16,4 @@
 |Aash|[Aash](https://github.com/Snowfall22) | Coding | Learning |
 |Sahil Bhise|[sahilbhise09](https://github.com/sahilbhise09) | Coding, Development | Leaning... |
 |Raj Sharma        |[Raj Sharma](https://github.com/Raj-sharma01)        | Coding                          | Learner |
+| Suvrajeet Jsah   |[iPHOENIX-matrix](https://github.com/iPHOENIX-matrix)|        Sports,Reading and Coding|      Learner |
