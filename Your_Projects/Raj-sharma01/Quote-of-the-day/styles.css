@@ -1,0 +1,80 @@
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+
+    background: #DAD299;
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);
+    background: linear-gradient(to right, #B0DAB9, #DAD299);
+
+}
+
+
+#quote-container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+
+}
+
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#quote-text {
+    font-size: 24px;
+    font-weight: italic;
+    margin-bottom: 20px;
+}
+
+
+#quote-author {
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+@media (max-width: 768px) {
+
+    #quote-container {
+        padding: 20px;
+        max-width: 90%;
+        margin: 30px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #quote-text {
+        font-size: 20px;
+    }
+
+    #quote-author {
+        font-size: 18px;
+    }
+
+}
