@@ -8,5 +8,7 @@
 | Bhumika Bachchan |      [insane-22](https://github.com/insane-22)      |             Coding, Book reading |    Grateful |
 | Syed Sumaim Ali  | [Syed Sumaim Ali](https://github.com/SyedSumaimaly) | Coding, Editing, Attending MUN'S | Confident.. |
 | Deepesh Kumar    |     [akadeepesh](https://github.com/akadeepesh)     |                  Coding, web-dev |   DeCoder.. |
-|Rishabh Rathore|[Rishabh Rathore](https://github.com/rishabhrathore055) | Python, Data Science, Open Source| Focused
-|Parmesh Bhatt|[Parmesh Bhatt](https://github.com/Parmesh119)            | Coding, open-sourcec, Cricket    | Learner
+|Rishabh Rathore|[Rishabh Rathore](https://github.com/rishabhrathore055) | Python, Data Science, Open Source| Focused |
+|Krishay Nair|[krishaynair](https://github.com/KrishayNair) | Coding, Drawing | Leaning... |
+| Kalki V          |      [Kalki2706](https://github.com/Kalki2706)      |                Coding, Designing |  Consistent |
+|Parmesh Bhatt|[Parmesh Bhatt](https://github.com/Parmesh119)            | Coding, open-sourcec, Cricket    | Learner |
