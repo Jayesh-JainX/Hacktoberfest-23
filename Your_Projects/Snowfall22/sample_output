@@ -1,0 +1,7 @@
+Enter the number of items: 3
+Enter the values of the items:
+60 100 120
+Enter the weights of the items:
+10 20 30
+Enter the knapsack capacity: 50
+Maximum profit: 220
