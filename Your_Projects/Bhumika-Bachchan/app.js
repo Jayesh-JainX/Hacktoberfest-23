@@ -6,6 +6,7 @@ const path = require('path');
 const app = express();
 
 app.use(bodyParser.json());
+app.use(express.static("public"));
 
 // app.use('/random-name', (req,res)=>{
 //     const {first_name} = data_f[Math.floor(Math.random()*100)]
@@ -30,9 +31,9 @@ app.get('/name_m', (req, res) => {
     });
   });
 
-app.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname,"index.html"));
-})
+// app.get('/',(req,res)=>{
+//     res.sendFile(path.join(__dirname,"index.html"));
+// })
 
 app.listen(3000,()=>{
     console.log("App listening on port 3000")

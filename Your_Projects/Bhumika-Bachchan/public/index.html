@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NameVerse</title>
+</head>
+<script>
+    function parsedResponse(data){
+        console.log(data);
+        var parentElement = document.getElementById('main-area');
+        parentElement.innerHTML = "";
+        var childElement = document.createElement("div");
+        childElement.innerHTML = data.first_name;
+        childElement.setAttribute("class", "name")
+        parentElement.appendChild(childElement);
+    }
+
+    function callback(resp){
+        resp.json().then(parsedResponse)
+    }
+
+    function onPress_m(){
+        fetch("http://localhost:3000/name_m",{
+            method: "GET"
+        }).then(callback)
+    }
+    function onPress_f(){
+        fetch("http://localhost:3000/name_f",{
+            method: "GET"
+        }).then(callback)
+    }
+
+</script>
+<body>
+    <h2  data-text="NameVerse">NameVerse</h2>
+    <div class="container">
+        <button type="button" onclick="onPress_m()">Male</button>
+        <button type="button" onclick="onPress_f()">Female</button>
+    </div>
+    <div id="main-area"></div>
+</body>
+</html>
