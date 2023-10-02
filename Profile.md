@@ -22,3 +22,4 @@
 |Trishan Wagle       |[Trishan Wagle](https://github.com/trishan9)        | Coding, AI, Data Science                        | Hustler |
 |Mihir Panchal      |[Mihir Panchal](https://github.com/MihirRajeshPanchal)        | Coding                   | Developer |
 |Javeria Asif |[Javeria Asif](https://github.com/Javeria-Asif)| Coding, Cyber Security| Developer |
+|Adarsh Navneet Sinha |[Adarsh Navneet Sinha](https://github.com/geeky01adarsh)| Web3, BlockChain | Full Stack Developer |
