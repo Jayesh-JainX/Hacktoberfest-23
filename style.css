@@ -337,3 +337,14 @@ input:focus {
 .zoomed {
   width: 100%;
 }
+.card32{
+  background-image: url(ankit.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+}
+#ankit:hover{
+  background: linear-gradient(to left, #0099ff 0%, #ff00ff 100%);
+}
